@@ -6,7 +6,7 @@ module.exports = {
   config: {
     // choose either `'stable'` for receiving highly polished,
     // or `'canary'` for less polished but more frequent updates
-    updateChannel: 'canary',
+    updateChannel: 'stable',
 
     // default font size in pixels for all tabs
     fontSize: 14,
@@ -47,10 +47,10 @@ module.exports = {
 
     // custom CSS to embed in the main window
     css: ' .header_header * {background-color: #292D3E; } \
-    .xterm-selection-layer{padding: 5px; border-radius: 5px; background: rgba(0, 0, 0, 0.35);} \
+    .xterm-selection-layer{padding: 5px; border-radius: 5px;} \
     .xterm-text-layer{padding: 5px; } \
-    .xterm-cursor-layer{padding: 5px; border-radius: 5px;} \
-    .xterm-screen {} ',
+    .xterm-cursor-layer{padding: 5px; border-radius: 5px;background: rgba(0, 0, 0, 0.35); } \
+    canvas{padding: 5px} ',
 
     // custom CSS to embed in the terminal window
     termCSS: '',
