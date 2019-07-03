@@ -1,0 +1,17 @@
+{
+    "git.ignoreMissingGitWarning": true,
+    "files.autoSave": "afterDelay",
+    "files.autoSaveDelay": 4000,
+    "window.zoomLevel": -1,
+    "workbench.colorTheme": "fairyfloss",
+    "materialTheme.fixIconsRunning": false,
+    "workbench.iconTheme": "eq-material-theme-icons-palenight",
+    "editor.fontSize": 16,
+    "workbench.editor.showTabs": false,
+    "editor.fontFamily": "Operator Mono Lig, monospace",
+    "editor.fontLigatures": true,
+    "markiscodecoverage.searchCriteria": "~/Documents/Github/clearwater/commotion/coverage/*",
+    "coverage-gutters.showLineCoverage": true,
+    "coverage-gutters.showGutterCoverage": false,
+    "editor.tabSize": 2
+}
